@@ -1,0 +1,10 @@
+t=0:1023;
+hmm=hamming(1024);
+subplot(3,1,1);
+plot(t,hmm);
+subplot(3,1,2);
+hnn=hann(1024);
+plot(t,hnn);
+subplot(3,1,3);
+Rect = triangle(1024);
+plot(t,Rect);
